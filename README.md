@@ -1,5 +1,5 @@
 # Tetris Game: Object Oriented Programmin in Python
-This is a small project to showcase object-oriented programming in Python. No image assets are used for this project; everything is being drawn using a Tkinter wrapper library.
+This is a small project to showcase object-oriented programming in Python. No image assets are used for this project; everything is being rendered using a Tkinter wrapper library.
 
 Using the Tkinter wrapper in `graphics.py` I define a class `Block` which is used as a building block for each of the Tetris shapes. Each tetris shape gets its own class which is inheretid from the `Shape` class to draw our shape. The `Shape` class contains the relative position of the blocks for each particular shape, along with the shape position on the board. Additionally each shape has a color assigned to it randomly at the time of instantiation. You get the idea!
 
